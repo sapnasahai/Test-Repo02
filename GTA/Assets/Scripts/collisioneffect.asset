@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: collisioneffect
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"collision","summary":"when
+      ball hit the surface","pan":{"x":48.70371,"y":8.479235},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-443.0,"y":-173.0},"guid":"c3fc9cd5-0b94-475e-9f16-ecbfd6d61036","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-446.0,"y":41.0},"guid":"adaf26b4-fd72-4260-85b5-a81ce258185c","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-236.0,"y":-133.0},"guid":"2db8f5aa-36d5-4deb-88a3-4df27204688f","$version":"A","$type":"Bolt.OnCollisionEnter","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"smoke
+      puff","$type":"System.String"},"object":null},"position":{"x":-59.0,"y":80.0},"guid":"7c78c9e0-655d-442e-8ae2-2a57181cb780","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"chainable":false,"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.ParticleSystem","targetTypeName":"UnityEngine.ParticleSystem","$version":"A"},"defaultValues":{"target":null},"position":{"x":166.0,"y":-130.0},"guid":"d945e50d-7bd8-4adc-8af7-f72afcbdf9fd","$version":"A","$type":"Bolt.InvokeMember","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"c283df15-9de2-4b1c-8ba8-2bca27c9ebd2","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"b6e37ec3-2974-4832-a588-fb38c057a83d","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
